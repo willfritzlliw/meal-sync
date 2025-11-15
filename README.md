@@ -52,7 +52,7 @@ This project uses a combination of FastAPI for the web server and LangChain to c
 To start the FastAPI server, run the following command from the root of the project:
 
 ```bash
-python main.py
+fastapi dev main.py
 ```
 
 The application will be available at `http://127.0.0.1:8000`.
