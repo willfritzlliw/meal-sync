@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*/bin/activate
+*/lib/python*/site-packages/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+.flaskenv
+
+# Logs
+*.log
+log/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.tox/
+
+# FastAPI specific
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# LangChain specific (if any specific cache/temp files are generated)
+# Add any specific LangChain cache directories here if they exist
+# For now, general Python ignores should cover most.
