@@ -1,5 +1,5 @@
 from ..config import settings
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 
 def get_llm(temperature: float = 0.7):
     llm = ChatOpenAI(
