@@ -8,11 +8,10 @@ This project uses a combination of FastAPI for the web server and LangChain to c
 
 ## Features
 
-*   **Personalized Health Goals:** Input and save your unique health goals.
+*   **Personalized Health Goals:** Input your unique health goals.
 *   **Meal Analysis:** Submit a descriptive text of your meal for analysis.
 *   **Sync Score:** Receive a score indicating how well your meal aligns with your goals.
-*   **Agentic AI:** Powered by LangChain to provide intelligent and contextual scoring.
-*   **FastAPI Backend:** A robust and fast API to handle requests.
+*   **Agentic AI:** Powered by LangChain to provide intelligent meal ratings for a desired goal 
 
 ## Tech Stack
 
@@ -26,13 +25,13 @@ This project uses a combination of FastAPI for the web server and LangChain to c
 ### Prerequisites
 
 *   Python 3.9+
-*   An OpenAI API key (or other LLM provider key)
+*   An OpenAI API key (or change to your desired llm)
 
 ### Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone <this-repository-url>
     cd meal-sync
     ```
 
@@ -45,6 +44,8 @@ This project uses a combination of FastAPI for the web server and LangChain to c
     Create a `.env` file in the root of the project and add your API keys and other configuration:
     ```
     OPENAI_API_KEY="your-openai-api-key"
+    MODEL_NAME="your-ai-model-name"
+
     ```
 
 ### Running the Application
@@ -62,4 +63,4 @@ The application will be available at `http://127.0.0.1:8000`.
 The following are the main API endpoints for Meal Sync:
 
 *   `GET /`: A simple endpoint to check if the server is running.
-*   `GET /hello`: An example endpoint from the API router.
+* 
